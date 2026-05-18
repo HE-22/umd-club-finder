@@ -1,0 +1,1 @@
+-- Seed data is imported from data/clubs.json with npm run import:clubs.

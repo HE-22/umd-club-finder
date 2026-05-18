@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About | UMD Club Finder</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <a class="logo" href="index.html">UMD Club Finder</a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="finder.html">Find Clubs</a>
+        <a href="about.html">About</a>
+      </nav>
+    </header>
+
+    <main>
+      <h1>About</h1>
+      <p>A small INST 377 app for searching UMD clubs.</p>
+
+      <h2>Stack</h2>
+      <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>Node and Express</li>
+        <li>Supabase</li>
+        <li>Vercel</li>
+      </ul>
+
+      <section>
+        <h2>Club chart</h2>
+        <div class="chart-wrap">
+          <canvas id="categoryChart" aria-label="Club category chart"></canvas>
+        </div>
+      </section>
+
+      <section>
+        <h2>External UMD API</h2>
+        <ul id="umdCourses"></ul>
+        <p id="apiDate"></p>
+      </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.13/dayjs.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

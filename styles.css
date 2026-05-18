@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+header {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 12px;
+}
+
+nav a,
+.logo {
+  margin-right: 15px;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 26px;
+}
+
+input,
+button {
+  padding: 7px;
+}
+
+input {
+  width: 60%;
+}
+
+button,
+.button {
+  padding: 8px 12px;
+}
+
+.search-panel,
+.club-card {
+  border: 1px solid #ccc;
+  margin-top: 12px;
+  padding: 10px;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 10px;
+}
+
+.chart-wrap {
+  height: 280px;
+}
+
+@media (max-width: 600px) {
+  input,
+  button {
+    width: 100%;
+    margin-top: 5px;
+  }
+}

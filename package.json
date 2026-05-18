@@ -1,0 +1,14 @@
+{
+  "name": "umd-club-finder",
+  "version": "1.0.0",
+  "description": "Simple UMD club finder with Supabase-backed search.",
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1"
+  }
+}

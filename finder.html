@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find Clubs | UMD Club Finder</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <a class="logo" href="index.html">UMD Club Finder</a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="finder.html">Find Clubs</a>
+        <a href="about.html">About</a>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Search clubs</h1>
+
+      <section class="search-panel">
+        <form id="searchForm">
+          <input
+            id="searchInput"
+            type="search"
+            placeholder="Search by interest or category"
+            autocomplete="off"
+          />
+          <button type="submit">Search</button>
+        </form>
+        <p id="searchStatus">Loading...</p>
+      </section>
+
+      <section>
+        <div id="clubResults" class="card-grid"></div>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,8 @@
+node_modules/
+.env
+.DS_Store
+scripts/
+supabase/.branches/
+supabase/.temp/
+.supabase-db-password.tmp
+.vercel
